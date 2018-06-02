@@ -18,8 +18,8 @@ public class AJavaApp {
 
 	public static void main(String[] args) {
 		while (true) {
-			
 			System.out.println(new Date());
+			System.out.println("hello");
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
